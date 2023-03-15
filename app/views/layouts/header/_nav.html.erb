@@ -1,5 +1,7 @@
 <header class="header">
-    <%= link_to 'LOGO', root_path, class: "header__logo" %>
+    <%= link_to  root_path, class: "header__logo" do %>
+        LOGO
+    <% end %>
     <% items = ['Home', 'Dropdown Menu', 'Mega menu', 'Blog', 'About' ] %>
     <nav>
         <ul class="header__menu">
