@@ -132,6 +132,7 @@
                 <% if current_user %>
                 <li>
                   <%= link_to 'Logout', logout_path, data: { turbo_method: :delete }, class: "header__menu__item" %>
+                 <%= render 'layouts/header/dropdown' %>
                 <li>
                 <% else %>
                 <li>
