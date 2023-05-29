@@ -49,7 +49,6 @@ gem 'devise'
 
 # Use Sass to process CSS
 gem "sassc-rails"
-gem 'sassc'
 # gem 'tailwindcss'
 
 
