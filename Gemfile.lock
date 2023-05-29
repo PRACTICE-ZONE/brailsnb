@@ -237,6 +237,7 @@ DEPENDENCIES
   rails (~> 7.0.5)
   redis (~> 4.0)
   rspec-rails (~> 6.0.0)
+  sassc
   sassc-rails
   sprockets-rails
   stimulus-rails
